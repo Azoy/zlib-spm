@@ -3,5 +3,8 @@
 import PackageDescription
 
 let package = Package(
-    name: "SSCZLib"
+    name: "SSCZLib",
+    products: [
+        .library(name: "SSCZLib", targets: [])
+    ]
 )
